@@ -1,0 +1,37 @@
+
+
+
+<div id="main_toolbar">
+      <form id="charts_form" method="post">
+        <select id="menu_pulldown" class="mapChartsButton" onchange="changeMapType()">
+          <optgroup label="VFR">
+			<option selected="" value="vfrc">Hybrid VFR
+            <option value="sec">Sectional
+            <option value="tac">Terminal
+            <option value="wac">WAC
+          </optgroup>
+          <optgroup label="IFR">
+            <option value="enrl">Low IFR
+            <option value="enrh">High IFR
+          </optgroup>
+          <optgroup label="Google">
+            <option value="roadmap">Roadmap
+            <option value="hybrid">Satellite
+            <option value="terrain">Terrain
+            <option value="Contrast">Contrast            
+          </optgroup>
+        </select>
+      </form>
+    </div>
+    
+    <div id="weather_toolbar">
+      <form id="weather_form" method="post">
+        <select id="weather_menu_pulldown" class="mapChartsButton" onchange="WXOverlayControl.prototype.updateMap2()">  
+			<option selected="" value="none">Wx: None 
+			<option value="radar">Radar 
+            <option value="satrad">Sat/Rad
+            <option value="sat">Satellite
+            <option value="windspeed">Windspeed
+        </select>
+      </form>
+    </div> 
