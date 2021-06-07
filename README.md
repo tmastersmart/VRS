@@ -20,8 +20,11 @@ Forked from. https://github.com/ProHill/VRS-Charts
 
 Enabled	Inject	At	Of	Address	
 
-/home/pi/VRS-Custom/headeradd.html	    End Head /desktop.html	 
-/home/pi/VRS-Custom/map_toolbar.html	    End Body /desktop.html	 
-/home/pi/VRS-Custom/custom-map.html  	    End Body /desktop.html	 
+/home/pi/VRS-Custom/headeradd.html	    End Head /desktop.html
+
+/home/pi/VRS-Custom/map_toolbar.html	    End Body /desktop.html
+
+/home/pi/VRS-Custom/custom-map.html  	    End Body /desktop.html
+
 /home/pi/VRS-Custom/map_toolbar-mobile.html End Head /mobile.html
 
